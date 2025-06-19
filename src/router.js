@@ -1,25 +1,28 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import EMDRMap from './views/EMDRMap.vue'
 
-// Import your pages
 import ClientPanel from './views/ClientPanel.vue'
 import ClientView from './views/ClientView.vue'
 import ClinicianView from './views/ClinicianView.vue'
 import ReflectiveChat from './views/ReflectiveChat.vue'
-import SystemMap from './views/SystemMap.vue'
+import IFSMap from './views/IFSMap.vue'
+import CBTMap from './views/CBTMap.vue'
 
-// Define routes
 const routes = [
     { path: '/', component: ClientPanel },
     { path: '/client-view', component: ClientView },
     { path: '/clinician-view', component: ClinicianView },
     { path: '/reflective-chat', component: ReflectiveChat },
-    { path: '/system-map', component: SystemMap }
+    { path: '/ifs-map', component: IFSMap },
+    { path: '/cbt-map', component: CBTMap }
+    { path: '/emdr-map', component: EMDRMap }
+
 ]
 
-// Create router
 const router = createRouter({
     history: createWebHistory(),
     routes
 })
 
 export default router
+
