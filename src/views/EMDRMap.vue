@@ -1,10 +1,7 @@
 <template>
   <div style="min-height: 100vh; background-color: #111827; color: white; padding: 2rem; display: flex; flex-direction: column; align-items: center;">
     <h1 style="font-size: 2.5rem; margin-bottom: 2rem;">EMDR Map (Illustrative)</h1>
-
-    <div style="width: 80%; height: 500px; border: 2px dashed white; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem;">
-      <!-- Optional: Add image later -->
-      Placeholder for EMDR Map (image or design goes here)
-    </div>
+    <img src="/images/emdr-map.png" alt="EMDR Map" class="w-full max-w-4xl mx-auto border rounded shadow" />
   </div>
 </template>
+
