@@ -14,7 +14,7 @@ const routes = [
     { path: '/clinician-view', component: ClinicianView },
     { path: '/reflective-chat', component: ReflectiveChat },
     { path: '/ifs-map', component: IFSMap },
-    { path: '/cbt-map', component: CBTMap }
+    { path: '/cbt-map', component: CBTMap },
     { path: '/emdr-map', component: EMDRMap }
 
 ]
