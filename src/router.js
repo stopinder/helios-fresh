@@ -16,7 +16,6 @@ const routes = [
     { path: '/ifs-map', component: IFSMap },
     { path: '/cbt-map', component: CBTMap },
     { path: '/emdr-map', component: EMDRMap }
-
 ]
 
 const router = createRouter({
