@@ -1,14 +1,22 @@
 <template>
-  <nav class="w-full flex justify-around bg-gray-900 p-4 text-white shadow-md">
-    <RouterLink to="/">Client Panel</RouterLink>
-    <RouterLink to="/client-view">Client View</RouterLink>
-    <RouterLink to="/clinician-view">Clinician View</RouterLink>
-    <RouterLink to="/reflective-chat">Reflective Chat</RouterLink>
-    <RouterLink to="/ifs-map">IFS Map</RouterLink>
-    <RouterLink to="/cbt-map">CBT Map</RouterLink>
-    <RouterLink to="/emdr-map">EMDR Map</RouterLink>
+  <nav class="bg-white shadow px-6 py-4 flex items-center justify-between">
+    <h1 class="text-xl font-semibold text-purple-600">Heliosandbox</h1>
 
+    <div class="space-x-4">
+      <router-link to="/" class="text-gray-700 hover:text-purple-600">Home</router-link>
+      <router-link to="/client-view" class="text-gray-700 hover:text-purple-600">Client View</router-link>
+      <router-link to="/clinician-view" class="text-gray-700 hover:text-purple-600">Clinician View</router-link>
+      <router-link to="/reflective-chat" class="text-gray-700 hover:text-purple-600">Chat</router-link>
+      <router-link to="/ifs-map" class="text-gray-700 hover:text-purple-600">IFS Map</router-link>
+      <router-link to="/cbt-map" class="text-gray-700 hover:text-purple-600">CBT Map</router-link>
+      <router-link to="/emdr-map" class="text-gray-700 hover:text-purple-600">EMDR Map</router-link>
+    </div>
   </nav>
 </template>
+
+<script setup>
+// No logic needed yet
+</script>
+
 
 
